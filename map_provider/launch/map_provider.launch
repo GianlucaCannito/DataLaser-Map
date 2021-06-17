@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch> 
+  <arg name="map_file" value="$(find map_provider)/map/mymap2d.yaml"/>
+  <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)"/> 
+</launch>
+

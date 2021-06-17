@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="robot_laser" type="robot_laser.py" name="robot_test" output="screen">
+        
+    </node>
+</launch>
