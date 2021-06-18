@@ -11,7 +11,7 @@ Per rendere eseguibili i due codici si utilizza il seguente comando:
 
 > chmod +x ./nomefile
 
-I due codici vengono eseguiti attraverso i file launch:
+Attraverso i file launch è possibile avviare i due codici con i comandi:
 
 > roslaunch robot_laser robot_laser.launch
 
