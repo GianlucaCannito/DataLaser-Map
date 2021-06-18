@@ -10,3 +10,9 @@ In src sono presenti due codici in Python: robot_laser.py e robot_vel.py. Grazie
 Per rendere eseguibili i due codici si utilizza il seguente comando:
 
 > chmod +x ./nomefile
+
+I due codici vengono eseguiti attraverso i file launch:
+
+> roslaunch robot_laser robot_laser.launch
+
+> roslaunch robot_laser robot_vel.launch
